@@ -1,0 +1,8 @@
+<routes>
+    <vType id="Car" accel="3.5" decel="5.0"  length="5.0" maxSpeed="40" sigma="0.5"/>
+    <vType id="Car2" accel="3.5" decel="6.0"  length="5.0" speedFactor="1" speedDev="0.1" carFollowModel="Wiedemann" maxSpeed="40"/>
+    <vType id="Truck" accel="1.2" decel="4.0"  length="18.0" maxSpeed="25" sigma="0.2"/>
+    <flow id="type1" begin="0" end="1500" period="6" type="Car2">
+        <route id="r1" edges="link1 link2 link3 link4"/>
+    </flow>
+</routes>
